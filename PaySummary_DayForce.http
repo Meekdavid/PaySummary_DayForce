@@ -1,0 +1,6 @@
+@PaySummary_DayForce_HostAddress = http://localhost:5174
+
+GET {{PaySummary_DayForce_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

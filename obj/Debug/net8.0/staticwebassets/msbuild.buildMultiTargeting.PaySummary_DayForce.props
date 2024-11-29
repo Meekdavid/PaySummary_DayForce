@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PaySummary_DayForce.props" />
+</Project>
