@@ -73,7 +73,7 @@ PaySummary_DayForce/
 ### Installation
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/PaySummary_DayForce.git
+   git clone https://github.com/Meekdavid/PaySummary_DayForce.git
    cd PaySummary_DayForce
    ```
 2. Restore dependencies:  
@@ -93,7 +93,7 @@ PaySummary_DayForce/
    ```bash
    dotnet run
    ```
-2. Use the API to upload timecard and rate table data and generate pay summaries.
+2. Use the API to generate pay summaries.
 
 ### Sample Input
 #### Timecard Data:
@@ -155,7 +155,7 @@ Contributions are welcome! Please follow these steps:
 ---
 
 ## **License**
-This project is licensed under the [MIT License](LICENSE).
+
 
 ---
 
