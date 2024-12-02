@@ -20,7 +20,7 @@ namespace PaySummary_DayForce.Repositories
             try
             {
                 // Group the time card file records by employee, earning code, job worked and department
-                foreach (var group in timecard.GroupBy(t => new { t.Employee_Name, t.Employee_Number, t.Earnings_Code, t.Job_Worked, t.Dept_Worked }))
+                foreach (var group in timecard.GroupBy(t => new { t.Employee_Number, t.Earnings_Code, t.Job_Worked, t.Dept_Worked }))
                 {
                     var employeeRecords = group.ToList();// Employee records with distinctive earning code and employee number
 
