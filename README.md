@@ -115,7 +115,7 @@ PaySummary_DayForce/
 
 ## **Methodology**
 1. **Input Validation**: The application validates the timecard and rate table inputs.
-2. **Grouping**: Employee records are grouped by `Employee_Name`, `Employee_Number`, and `Earnings_Code`.
+2. **Grouping**: Employee records are grouped by `Employee_Number`, and `Earnings_Code`, `Job_Worked` and `Dept_Worked`.
 3. **Rate Lookup**: The highest applicable rate is selected from the rate table or provided rate.
 4. **Calculations**:
    - **Total Hours**: Summed for each group.
