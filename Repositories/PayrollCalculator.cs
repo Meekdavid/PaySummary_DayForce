@@ -50,7 +50,7 @@ namespace PaySummary_DayForce.Repositories
                     // Add summary record for the employee
                     result.Add(new Pay_Summary_Record
                     {
-                        Employee_Name = group.Key.Employee_Name,
+                        Employee_Name = employeeRecords.FirstOrDefault().Employee_Name,
                         Employee_Number = group.Key.Employee_Number,
                         Earnings_Code = group.Key.Earnings_Code,
                         Total_Hours = totalHours,
